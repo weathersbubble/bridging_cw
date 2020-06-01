@@ -1,3 +1,7 @@
+.admin-button-mobile {
+    display: none;
+}
+
 .page-title {
     margin-top: 3px;
     margin-bottom: -3px;
@@ -18,7 +22,7 @@
     padding: 10px 10px 0px;
 }
 
-.admin-button {
+.admin-button-desktop {
     float: right;
 }
 
@@ -77,9 +81,16 @@
     .page-header {
         font-size: 1.1em;
     }
-    .admin-button {
+    .admin-button-desktop {
         display: none;
     }
+
+    .admin-button-mobile {
+        margin-top: 20px;
+        display: block;
+        float: right;
+    }
+
     .id-photo {
         display: block;
         margin: auto;
